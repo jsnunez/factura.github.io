@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Facturas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Facturación</h1>
+    </header>
+    
+    <main>
+       <section id="clientes">
+          <h2>Módulo de clientes</h2>
+          <div id="clientes-form"></div>
+          <div id="listado-clientes"></div>
+       </section>
+       <section id="productos">
+          <h2>Módulo de Productos</h2>
+          <div id="productos-form"></div>
+          <div id="listado-productos"></div>
+       </section>
+       <section id="facturas">
+        <h2>Módulo de Facturas</h2>
+        <div id="facturas-form"></div>
+        <div id="listado-facturas"></div>
+     </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>    
+    <script src="js/clientes.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/facturas.js"></script>   
+    <script src="js/app.js"></script>
+</body>
+</html>
